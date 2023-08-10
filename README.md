@@ -4,6 +4,9 @@ Este repositorio contiene implementaciones y ejemplos de uso de varias funciones
 
 ## Funciones Exploradas
 
+### `strcmp()`
+La función `strcmp()` se encuentra en la biblioteca string.h y se utiliza para comparar dos cadenas de caracteres en C/C++. Devuelve un valor entero que indica la relación lexicográfica entre las cadenas comparadas.
+
 ### `strlen()`
 
 La función `strlen()` se utiliza para calcular la longitud de una cadena. Esta función recorre la cadena carácter por carácter hasta encontrar el carácter nulo (`'\0'`) que indica el final de la cadena. Devuelve el número de caracteres en la cadena, excluyendo el carácter nulo.
