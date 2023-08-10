@@ -1,0 +1,3 @@
+D:/Proyectos en C/characterChain/cmake-build-debug/CMakeFiles/characterChain.dir
+D:/Proyectos en C/characterChain/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/Proyectos en C/characterChain/cmake-build-debug/CMakeFiles/rebuild_cache.dir
