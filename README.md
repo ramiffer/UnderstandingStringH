@@ -1,24 +1,21 @@
-# Exploración de Funciones de la Biblioteca string.h
+# Exploration of `string.h` Library Functions
 
-Este repositorio contiene implementaciones y ejemplos de uso de varias funciones de la biblioteca `string.h` en C/C++. El objetivo es comprender mejor cómo funcionan estas funciones para manipular y trabajar con cadenas de caracteres.
+This repository contains implementations and usage examples of various functions from the `string.h` library in C/C++. The purpose is to gain a better understanding of how these functions work to manipulate and work with character strings.
 
-## Funciones Exploradas
+## Explored Functions
 
 ### `strcmp()`
-La función `strcmp()` se encuentra en la biblioteca string.h y se utiliza para comparar dos cadenas de caracteres en C/C++. Devuelve un valor entero que indica la relación lexicográfica entre las cadenas comparadas.
+The `strcmp()` function is part of the `string.h` library and is used to compare two strings in C/C++. It returns an integer value that indicates the lexicographic relationship between the compared strings.
 
 ### `strlen()`
-
-La función `strlen()` se utiliza para calcular la longitud de una cadena. Esta función recorre la cadena carácter por carácter hasta encontrar el carácter nulo (`'\0'`) que indica el final de la cadena. Devuelve el número de caracteres en la cadena, excluyendo el carácter nulo.
+The `strlen()` function is used to calculate the length of a string. This function iterates through the string character by character until it encounters the null character (`'\0'`), which signifies the end of the string. It returns the number of characters in the string, excluding the null character.
 
 ### `strcpy()`
-
-La función `strcpy()` se utiliza para copiar una cadena en otra. Recorre el origen carácter por carácter y los copia en el destino hasta encontrar el carácter nulo. Agrega el carácter nulo al final del destino para asegurarse de que la cadena resultante esté correctamente terminada.
+The `strcpy()` function is used to copy one string into another. It goes through the source string character by character, copying each character into the destination until it encounters the null character. It adds the null character at the end of the destination to ensure that the resulting string is properly terminated.
 
 ### `strcat()`
+The `strcat()` function is used to concatenate two strings. It locates the end of the destination string and appends the characters from the source string to the end of the destination string. It adds a new null character at the end to ensure the resulting concatenated string is properly terminated.
 
-La función `strcat()` se utiliza para concatenar dos cadenas. Busca el final de la cadena de destino y copia los caracteres de la cadena de origen al final de la cadena de destino. Agrega un nuevo carácter nulo al final para garantizar que la cadena resultante esté terminada.
+## Repository Usage
 
-## Uso del Repositorio
-
-El código en este repositorio contiene implementaciones de estas funciones y ejemplos de cómo utilizarlas en diferentes contextos. Puedes explorar los archivos y estudiar cómo funcionan estas funciones en detalle.
+The code in this repository contains implementations of these functions and examples demonstrating how to use them in different contexts. You can explore the files and study how these functions work in detail.
